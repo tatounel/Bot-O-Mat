@@ -1,9 +1,11 @@
 # BOT-O-MAT
 Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
 
-Your application should collect a name and robot type from the types we list below. For each, it should create a Robot of the type the user chooses, e.g. Larry, Bipedal. 
+A housecleaning service wants to automate their process using robots and needs your help to create robots that can complete a variety of tasks.
 
-Given the list of tasks below, your application should then assign the Robot a set of five tasks, all of which complete after a duration that we show in milliseconds. 
+Your application should collect a name and robot type from the types we list below. For each, it should create a Robot of the type the user chooses, e.g. Larry, Bipedal.
+
+Given the list of tasks below, your application should then assign the Robot a set of five tasks, all of which complete after a duration that we show in milliseconds.
 
 
 
@@ -56,7 +58,7 @@ Tasks have a description and an estimated time to complete.
 
 ## Types
 ```
-{ 
+{
   UNIPEDAL: 'Unipedal',
   BIPEDAL: 'Bipedal',
   QUADRUPEDAL: 'Quadrupedal',
@@ -72,6 +74,7 @@ Be creative and have fun! Use this list or create your own features.
 - Create a leaderboard for tasks completed by each Robot
 - Create tasks specific for each robot type, this could work in conjunction with the leaderboard. For e.g. robots that are assigned tasks that their type can’t perform won’t get “credit” for finishing the task.
 - Add persistance for tasks, bots and leaderboard stats
+- Some customers want your robots to accomplish tasks that are not on your list, so they'd like for you to add the ability for users to create new kinds of tasks and have the robots complete them
 
 
 ## Authors
