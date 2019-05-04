@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" minHeight="500.0" minWidth="500.0" style="-fx-background-color: #66CCCC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@application/application.css" fx:controller="application.Controller">
+   <content>
+      <AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="575.0" style="-fx-background-color: #66CCCC;" AnchorPane.topAnchor="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="51.0" minHeight="49.0" prefHeight="60.0" prefWidth="559.0" text="BOT-O-MAT" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="51.0">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="222.0" layoutY="102.0" text="Here to help!" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="244.0" AnchorPane.topAnchor="115.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+               <image>
+                  <Image url="@drib_blink_bot.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="221.0" layoutY="341.0" text="Create a Robot">
+               <font>
+                  <Font name="Georgia Italic" size="16.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" layoutX="145.0" layoutY="371.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="35.0" prefWidth="281.0" spacing="12.0">
+               <children>
+                  <Label alignment="CENTER" minWidth="-Infinity" text="Enter name:" />
+                  <TextField fx:id="roboName" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="180.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="145.0" layoutY="406.0" maxHeight="-Infinity" prefHeight="40.0" prefWidth="281.0" spacing="5.0">
+               <children>
+                  <Label minWidth="-Infinity" text="Choose type:" />
+                  <ChoiceBox fx:id="typeBox" maxWidth="-Infinity" minWidth="180.0" prefWidth="167.0" />
+               </children>
+            </HBox>
+            <Button layoutX="245.0" layoutY="475.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" style="-fx-background-color: #000000; -fx-text-fill: #FFFFFF;" text="Create" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
