@@ -1,3 +1,8 @@
+# How to Run
+1. This application was created with Java and JavaFX so both need to be installed on the computer first.
+2. To open the application, clone or download the repository, and run the file "Main.java"
+
+
 # BOT-O-MAT
 Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.
 
